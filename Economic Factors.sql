@@ -50,3 +50,4 @@ Weekly_Sales
 FROM walmart
 ORDER BY Fuel_Price DESC
 LIMIT 10;
+
