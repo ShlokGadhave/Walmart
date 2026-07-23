@@ -1,4 +1,4 @@
-# Walmart
+
 
 # Walmart Sales Analysis using Python & SQL
 
