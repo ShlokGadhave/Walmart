@@ -191,12 +191,58 @@ The notebook contains visualizations such as:
 - Analytical Thinking
 - Business Insight Generation
 
+
+  ---
+
+# 📊 Key Insights
+
+Based on the exploratory data analysis and SQL queries, the following business insights were derived:
+
+### 🏪 Store Performance
+- Identified the top-performing and lowest-performing Walmart stores based on total weekly sales.
+- Some stores consistently outperformed others, indicating differences in customer demand and regional performance.
+- Store rankings helped highlight high-revenue and underperforming locations.
+
+### 📅 Holiday Impact
+- Holiday weeks generally generated higher sales compared to non-holiday weeks.
+- Certain holidays resulted in significant spikes in customer purchases.
+- Promotional campaigns during holidays can further maximize revenue.
+
+### 📈 Sales Trends
+- Weekly sales fluctuated over time, showing seasonal demand patterns.
+- Some periods experienced sharp increases due to holidays and promotional events.
+- Sales trend analysis helps identify peak shopping seasons.
+
+### ⛽ Economic Factors
+- Fuel prices showed a noticeable relationship with weekly sales in some regions.
+- Changes in the Consumer Price Index (CPI) reflected variations in consumer purchasing behavior.
+- Higher unemployment rates were associated with lower consumer spending in several stores.
+
+### 🌡️ Weather Analysis
+- Temperature influenced customer shopping behavior in specific regions.
+- Seasonal weather conditions contributed to variations in weekly sales performance.
+
+### 📊 SQL Window Function Insights
+- Used `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()` to rank stores based on sales.
+- Applied `LAG()` and `LEAD()` to compare current sales with previous and upcoming weeks.
+- Calculated running totals to monitor cumulative sales performance over time.
+- Used moving averages to smooth weekly sales fluctuations and identify long-term trends.
+
+### 💡 Business Recommendations
+- Focus marketing campaigns on stores with consistently high sales to maximize returns.
+- Introduce targeted promotional strategies for underperforming stores.
+- Increase inventory before major holidays to meet higher customer demand.
+- Monitor economic indicators such as fuel prices, CPI, and unemployment while planning sales strategies.
+- Utilize historical sales trends for demand forecasting and inventory optimization.
+- Implement advanced dashboards using Power BI or Tableau for real-time business monitoring.
+
+---
+
 ---
 
 # 📌 Future Improvements
 
 - Interactive Power BI Dashboard
-- Tableau Dashboard
 - Sales Forecasting using Machine Learning
 - Time Series Analysis
 - Streamlit Web Application
